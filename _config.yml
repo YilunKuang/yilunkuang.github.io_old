@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Yilun Kuang Title"
+title                    : "Yilun Kuang"
 title_separator          : "-"
 name                     : &name "Yilun Kuang"
 description              : &description "Undergraduate Research Assistant at New York University"
 url                      : https://yilunkuang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yilunkuang.github.io"
+repository               : "https://github.com/YilunKuang"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &KuangYilun
 facebook:
   username               :
   app_id                 :
