@@ -81,13 +81,13 @@ analytics:
 # Site Author
 author:
   name             : "Yilun Kuang"
-  avatar           : "yilun_pics.JPG"
+  avatar           : "bio-photo.jpg"
   bio              : "Undergraduate Research Assistant at NYU"
-  location         : "NY, New York"
+  location         : 
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : 
+  pubmed           : 
+  googlescholar    : 
+  email            : yk2516@nyu.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "YilunKuang"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : https://www.linkedin.com/in/yilun-mark-kuang-35a710171/
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "KuangYilun"
   vine             :
   weibo            :
   xing             :
