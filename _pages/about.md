@@ -1,12 +1,12 @@
-<!-- ---
+---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
---- -->
+---
 
 I am Yilun Kuang, a rising senior in Honors Mathematics and Computer Science at New York Univeristy. I am currently working as a summer research intern at [Center for Computational Neuroscience of Flatiron Institute, Simons Foundation](https://www.simonsfoundation.org/people/yilun-kuang/) on manifold-geometry inspired self-supervised learning. Previously I worked on NLP research and I was a TA/grader for the graduate level [DS-GA 1012 Natural Language Understanding and Computational Semantics class](https://docs.google.com/document/u/1/d/e/2PACX-1vRydPvLp9tNw1-45pp6IIl-jppX-tUfu0TQDVXRAiGA3CjIuJzBTzJo7cerQV08K8FqfUOYHBCPAggx/pub) at NYU. 
 
