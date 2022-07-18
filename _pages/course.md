@@ -9,7 +9,7 @@ Selected Courseworks at New York University
 ------
 ***
 
-#### Machine Learning
+### Machine Learning
 + CSCI-SHU 320 Machine Learning
 + CSCI-UA 521 Undergraduate Research 
 + DS-UA 203 Machine Learning for Language Understanding
@@ -18,20 +18,20 @@ Selected Courseworks at New York University
 + DS-GA 1013 Mathematical Tools for Data Science (Graduate)
 + DS-GA 1011 Natural Language Processing with Representation Learning (Graduate)
 
-#### Neuroscience
+### Neuroscience
 + PHIL 185N Topics of Neurophilosphy 
 + NEUR 095L Foundations of Neuroscience
 + NEUR-SHU 251 Behavioral and Integrative Neuroscience
 + NEUR-UA 302 Special Topics in Neural Science: Computational Neuroscience 
 
-#### Mathematics
+### Mathematics
 + MATH-UA 328 Honors Analysis I
 + MATH-UA 329 Honors Analysis II 
 + MATH-UA 233 Theory of Probability
 + MATH-UA 262 Ordinary Diff Equations 
 + MATH-UA 396 Honors Numerical Analysis 
 
-#### Software Engineering
+### Software Engineering
 + CSCI-UA 310 Basic Algorithms
 + CSCI-UA 480 Computer Networks
 + CSCI-UA 480 Parallel Computing
@@ -42,6 +42,8 @@ Selected Courseworks at New York University
 
 Prospective Courseworks at New York University
 ------
+***
+
 + MATH-GA 2911 Probability Theory I (Graduate)
 + MATH-GA 2830 Mathematical Statistics (Graduate)
 + CSCI-GA 3033 Bayesian Machine Learning (Graduate)
