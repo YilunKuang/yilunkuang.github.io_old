@@ -11,18 +11,22 @@ main:
     
   - title: "Project"
     url: /project/
-        
+
   - title: "Blog"
     url: /year-archive/
 
-  # - title: "Notes"
-  #   url: /notes/
+  - title: "Notes"
+    url: /notes/
 
   - title: "Courses"
     url: /course/
 
+  - title: "Resource"
+    url: /resource/
+
   - title: "CV"
     url: /cv/
+
     
   # - title: "Guide"
   #   url: /markdown/
