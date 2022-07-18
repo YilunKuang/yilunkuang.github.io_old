@@ -9,14 +9,17 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Project"
+    url: /project/
         
-  - title: "Blog Posts"
+  - title: "Blog"
     url: /year-archive/
 
   - title: "Notes"
     url: /notes/
+
+  - title: "Courses"
+    url: /course/
 
   - title: "CV"
     url: /cv/
@@ -25,3 +28,9 @@ main:
     url: /markdown/
 
 
+---
+layout: archive
+title: ""
+permalink: /course/
+author_profile: true
+---
