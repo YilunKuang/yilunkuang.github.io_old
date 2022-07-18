@@ -15,8 +15,8 @@ main:
   - title: "Blog"
     url: /year-archive/
 
-  - title: "Notes"
-    url: /notes/
+  # - title: "Notes"
+  #   url: /notes/
 
   - title: "Courses"
     url: /course/
@@ -28,9 +28,3 @@ main:
     url: /markdown/
 
 
----
-layout: archive
-title: ""
-permalink: /course/
-author_profile: true
----
