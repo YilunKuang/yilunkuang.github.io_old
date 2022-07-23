@@ -5,5 +5,6 @@ permalink: /notes/kkt
 author_profile: true
 ---
 
+# Understanding KKT Conditions
 To be updated
 
