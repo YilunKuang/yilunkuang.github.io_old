@@ -10,7 +10,7 @@ To be updated
 [KKT Conditions](https://yilunkuang.github.io/notes/kkt)
 + Theory of Constrained Convex Optimization, Support Vector Machines (Standard; Multi-Class and Multi-Kernel), and Examples in Self-Supervised Learning and Spike Neural Networks
 
-[Concentration Inequality](https://yilunkuang.github.io/notes/concentration_inequality)
+<!-- [Concentration Inequality](https://yilunkuang.github.io/notes/concentration_inequality) -->
 
 <!-- Selected Courseworks at New York University
 ------
