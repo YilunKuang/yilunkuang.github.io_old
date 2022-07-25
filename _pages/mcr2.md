@@ -17,7 +17,7 @@ Consider a set of encoding representations $W=(w_1,...,w_m)\in\mathbb{R}^{n\time
 
 The set of encoding representations $W$ is assumed to be zero mean for the sake of simplicity, i.e. $\mu=\frac{1}{m}\sum_{i=1}^{m}w_i=0$. 
 
-For every $w_i$, an approximation $\hat{w}_i$ of $w_i$ must satisfy $\mathbb{E}[||w_i-\hat{w}_i||^2]\leq\epsilon^2$. In other words, the encoding error of every vector $w_i$ is bounded by $\epsilon^2\implies$the encoding error of every entry of $w_i$ is $\epsilon^2/n$. Without the loss of generality, $\hat{w}_i=w_i+z_i,\space z_i\sim\mathcal{N}(0,\frac{\epsilon^2}{n}I)$.
+For every $w_i$, an approximation $\hat{w}_i$ of $w_i$ must satisfy $\mathbb{E}[\|w_i-\hat{w}_i\|^2]\leq\epsilon^2$. In other words, the encoding error of every vector $w_i$ is bounded by $\epsilon^2\implies$the encoding error of every entry of $w_i$ is $\epsilon^2/n$. Without the loss of generality, $\hat{w}_i=w_i+z_i,\space z_i\sim\mathcal{N}(0,\frac{\epsilon^2}{n}I)$.
 
 For a given set of representations $W=(w_1,...,w_m)$, the set of approximations $\hat{W}=(\hat{w}_1,...,\hat{w}_m)$ is now a collection of spheres. Optimal coding is now equivalent to optimal sphere packing subjected to the encoding error $\epsilon^2$ constraints. Notice that the covariance matrix of the vectors $\hat{w}_i$ is
 
@@ -69,10 +69,10 @@ $$
 Given a set of $m$ vectors $W=(w_1,w_2,...,w_m)$, $w_i\in\mathbb{R}^n$, we define a non-overlapping partition into $k$ subsets $W=W_1\cup W_2\cup...\cup W_k$. Then the total number of bits to encode the data with segmentations is given by
 
 $$
-L^s(W_1,...,W_k)=\sum_{i=1}^{k}L(W_i)+|W_i|(-\log_2\frac{|W_i|}{m}),
+L^s(W_1,...,W_k)=\sum_{i=1}^{k}L(W_i)+ |W_i|(-\log_2\frac{|W_i|}{m}),
 $$
 
-where $\sum_{i=1}^kL(W_i)$ is the coding length for all the subgroup $W_i$ and $\sum_{i=1}^k|W_i|(-\log_2\frac{|W_i|}{m})$ is the number of bits needed to encode the membership of the $m$ samples in the $k$ groups. 
+where $\sum_{i=1}^kL(W_i)$ is the coding length for all the subgroup $W_i$ and $\sum_{i=1}^k\text{|}W_i\text{|}(-\log_2\frac{\text{|}W_i\text{|}}{m})$ is the number of bits needed to encode the membership of the $m$ samples in the $k$ groups. 
 
 **The** **Rate-Distortion Function for Segmented Data** 
 
