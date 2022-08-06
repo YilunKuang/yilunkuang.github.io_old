@@ -5,8 +5,6 @@ permalink: /project/
 author_profile: true
 ---
 
-To be upated
-
 ## A Survey of Lazy and Feature Learning Regimes
 + [Presentation Slides](https://yilunkuang.github.io/files/Math4DL.pdf)
 
@@ -15,3 +13,9 @@ To be upated
 
 ## Poisson-Gamma Neural Variability
 + [Project Paper](https://yilunkuang.github.io/files/Comp_Neur_Final_Paper.pdf)
+
+## Scalable MNIST on Kubernetes
++ [Project Link](https://github.com/YilunKuang/Scalable-MNIST-on-Kubernetes)
+
+
+To be upated
