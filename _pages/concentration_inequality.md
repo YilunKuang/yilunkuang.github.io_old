@@ -7,6 +7,8 @@ author_profile: true
 
 ## Concentration Inequality
 
+> Concentration inequalities give probability bounds for a random variable to be concentrated around its mean, or for it to deviate from its mean or some other value——Mehryar Mohri. *Foundations of Machine Learning*
+
 ### Markov’s Inequality
 
 If $X$ is a non-negative random variable, then $\forall\space\epsilon>0$ we have
@@ -27,9 +29,28 @@ $$
 
 ### **Chernoff Bound**
 
-The Chernoff Bound is a natural extension of Markov’s Inequality. 
+The Chernoff Bound is a natural extension of Markov’s Inequality. Let $X$ be any random variable over $\mathbb{R}$. For all $t\geq0$ we have
 
-### Chebyshev's inequality
+$$
+\mathbb{P}[X\geq\epsilon]\leq\inf_{t\geq 0}\frac{\mathbb{E}[e^{tX}]}{e^{t\epsilon}}
+$$
+
+**Proof:**
+
+$$
+\mathbb{P}[X\geq\epsilon]=\mathbb{P}[e^{tX}\geq e^{t\epsilon}]
+\leq\frac{\mathbb{E}[e^{tX}]}{e^{t\epsilon}}\leq \inf_{t\geq 0}\frac{\mathbb{E}[e^{tX}]}{e^{t\epsilon}}.\space\square.
+$$
+
+### **Hoeffding’s Lemma**
+
+To provide an upper bound on $\mathbb{E}[e^{tX}]$ in the Chernoff Bound above, consider the Hoeffding’s Lemma. Let $X$ be a random variable with $\mathbb{E}[X]=0$, $a\leq x\leq b$, $a<b$. For all $t>0$, we have
+
+$$
+\mathbb{E}[e^{tX}]\leq e^{\frac{t^2(b-a)^2}{8}}
+$$
+
+**Proof:**
 
 ### Hoeffding’s inequality
 
