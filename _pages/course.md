@@ -17,6 +17,7 @@ Selected Courseworks at New York University
 + CSCI-GA 2566 Foundations of Machine Learning (Graduate)
 + DS-GA 1013 Mathematical Tools for Data Science (Graduate)
 + DS-GA 1011 Natural Language Processing with Representation Learning (Graduate)
++ DS-GA 1011 Natural Language Understanding and Computational Semantics (Graduate; Grader)
 
 ### Neuroscience
 + PHIL 185N Topics of Neurophilosphy 
@@ -44,6 +45,7 @@ Prospective Courseworks at New York University
 ------
 ***
 
-+ MATH-GA 2911 Probability Theory I (Graduate)
+<!-- + MATH-GA 2911 Probability Theory I (Graduate) -->
++ MATH-GA 2430 Real Variables I (Graduate)
 + MATH-GA 2830 Mathematical Statistics (Graduate)
 + CSCI-GA 3033 Bayesian Machine Learning (Graduate)
