@@ -18,4 +18,3 @@ author_profile: true
 + [Project Link](https://github.com/YilunKuang/Scalable-MNIST-on-Kubernetes)
 
 
-To be upated
