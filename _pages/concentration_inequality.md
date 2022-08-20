@@ -55,3 +55,13 @@ $$
 ### Hoeffding’s inequality
 
 ### McDiarmid’s inequality
+
+### Application: JL-Lemma
+
+For any $\epsilon\in(0,0.5)$ and any integer $m>4$, let $k=\frac{20\log m}{\epsilon^2}$. Then for any set of $V$ of $m$ points in $\mathbb{R}^N$, there exists a map $f:\mathbb{R}^N\to\mathbb{R}^k$ such that for all $\boldsymbol{u},\boldsymbol{v}\in V$,
+
+$$
+(1-\epsilon)||\boldsymbol{u}-\boldsymbol{v}||^2\leq||f(\boldsymbol{u})-f(\boldsymbol{v})||^2\leq(1+\epsilon)||\boldsymbol{u}-\boldsymbol{v}||^2.
+$$
+
+**Proof:**
