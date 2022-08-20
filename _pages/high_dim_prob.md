@@ -37,7 +37,7 @@ Assume there could be $k>n+1$ points and prove by contradiction.
 
 ### Theorem 0.0.2  (Approximate Form of Caratheodory’s Theorem)
 
-Consider a set $T\subset\mathbb{R}^n$ whose diameter is bounded by 1 $(\text{diam}(T):=\sup\{||s-t||_2:s,t\in T\})$. Then for every point $x\in\text{conv}(T)$ and every integer $k$, one can find points $x_1,...,x_k\in T$  such that
+Consider a set $T\subset\mathbb{R}^n$ whose diameter is bounded by 1 $(\text{diam}(T):=\sup\{\|\|s-t\|\|_2:s,t\in T\})$. Then for every point $x\in\text{conv}(T)$ and every integer $k$, one can find points $x_1,...,x_k\in T$  such that
 
 $$
 \bigg|\bigg|x-\frac{1}{k}\sum_{j=1}^kx_j\bigg|\bigg|_2\leq\frac{1}{\sqrt{k}}
@@ -45,7 +45,7 @@ $$
 
 **Proof:**
 
-Expand and bound  $\mathbb{E}\Bigg[\bigg|\bigg|x-\frac{1}{k}\sum_{j=1}^kZ_j\bigg|\bigg|_2^2\Bigg]$where $Z_1,...,Z_k$ are samples from the random vector $Z$ such that $\mathbb{P}[Z=z_i]=\lambda_i$, where $\lambda_i$ is the coefficients in the convex combination. In other words, treat vectors $x_i$ in the convex combinations as samples from a probability distribution of a random vector $Z$. 
+Expand and bound  $\mathbb{E}\Bigg[\bigg\|\bigg\|x-\frac{1}{k}\sum_{j=1}^kZ_j\bigg\|\bigg\|_2^2\Bigg]$where $Z_1,...,Z_k$ are samples from the random vector $Z$ such that $\mathbb{P}[Z=z_i]=\lambda_i$, where $\lambda_i$ is the coefficients in the convex combination. In other words, treat vectors $x_i$ in the convex combinations as samples from a probability distribution of a random vector $Z$. 
 
 ### Corollary 0.0.4 (Covering Polytopes by Balls)
 
