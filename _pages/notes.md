@@ -7,6 +7,8 @@ author_profile: true
 
 ## Notes
 
+[Learning Theory](https://yilunkuang.github.io/notes/learning_theory)
+
 [KKT Conditions](https://yilunkuang.github.io/notes/kkt)
 <!-- + Theory of Constrained Convex Optimization, Support Vector Machines (Standard; Multi-Class and Multi-Kernel), and Examples in Self-Supervised Learning and Spike Neural Networks -->
 
