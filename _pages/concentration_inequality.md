@@ -5,11 +5,22 @@ permalink: /notes/concentration_inequality
 author_profile: true
 ---
 
-## Concentration Inequality
+# Concentration Inequality
 
 > Concentration inequalities give probability bounds for a random variable to be concentrated around its mean, or for it to deviate from its mean or some other value——Mehryar Mohri. *Foundations of Machine Learning*
 
-### Markov’s Inequality
+## Jensen’s Inequality
+
+For any random variable $X$ and a convex function $f:\mathbb{R}\to\mathbb{R}$, we have
+
+$$
+f(\mathbb{E}[X])\leq\mathbb{E}[f(X)]
+$$
+
+(Reference: High-Dimensional Probability: An Introduction with Applications in Data Science, Chapter 2)
+
+
+## Markov’s Inequality
 
 If $X$ is a non-negative random variable, then $\forall\space\epsilon>0$ we have
 
@@ -27,7 +38,10 @@ $$
 \\\geq\int_{\epsilon}^{+\infty}xf(x)dx\geq\epsilon\int_{\epsilon}^{+\infty}f(x)dx=\epsilon\space\mathbb{P}(X\geq\epsilon).\space\square.
 $$
 
-### **Chernoff Bound**
+(Reference: Foundations of Machine Learning, Appendix D)
+
+
+## **Chernoff Bound**
 
 The Chernoff Bound is a natural extension of Markov’s Inequality. Let $X$ be any random variable over $\mathbb{R}$. For all $t\geq0$ we have
 
@@ -42,7 +56,9 @@ $$
 \leq\frac{\mathbb{E}[e^{tX}]}{e^{t\epsilon}}\leq \inf_{t\geq 0}\frac{\mathbb{E}[e^{tX}]}{e^{t\epsilon}}.\space\square.
 $$
 
-### **Hoeffding’s Lemma**
+(Reference: Wikipedia)
+
+## **Hoeffding’s Lemma**
 
 To provide an upper bound on $\mathbb{E}[e^{tX}]$ in the Chernoff Bound above, consider the Hoeffding’s Lemma. Let $X$ be a random variable with $\mathbb{E}[X]=0$, $a\leq x\leq b$, $a<b$. For all $t>0$, we have
 
@@ -52,11 +68,31 @@ $$
 
 **Proof:**
 
-### Hoeffding’s inequality
+(Reference: Foundations of Machine Learning, Appendix D)
 
-### McDiarmid’s inequality
+## Hoeffding’s inequality
 
-### Application: JL-Lemma
+## Hoeffding’s Inequality for Learning Theory
+
+Fix $\epsilon>0$. Then, for any hypothesis $h:X\to\{0,1\}$, the following inequalities hold:
+
+$$
+\mathbb{P}_{S\sim\mathcal{D}^m}\bigg[\widehat{R}_S(h)-R(h)\geq\epsilon\bigg]\leq\exp(-2m\epsilon^2)\\
+\mathbb{P}_{S\sim\mathcal{D}^m}\bigg[R(h)-\widehat{R}_S(h)\geq\epsilon\bigg]\leq\exp(-2m\epsilon^2)
+$$
+
+By the union bound, this implies the following two-sided inequality:
+
+$$
+\mathbb{P}_{S\sim\mathcal{D}^m}\bigg[\bigg\vert\widehat{R}_S(h)-R(h)\bigg\vert\geq\epsilon\bigg]\leq2\exp(-2m\epsilon^2)
+$$
+
+(Reference: Foundations of Machine Learning, Chapter 2)
+
+
+## McDiarmid’s inequality
+
+## Application: JL-Lemma
 
 For any $\epsilon\in(0,0.5)$ and any integer $m>4$, let $k=\frac{20\log m}{\epsilon^2}$. Then for any set of $V$ of $m$ points in $\mathbb{R}^N$, there exists a map $f:\mathbb{R}^N\to\mathbb{R}^k$ such that for all $\boldsymbol{u},\boldsymbol{v}\in V$,
 
