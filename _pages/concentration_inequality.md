@@ -17,6 +17,8 @@ $$
 f(\mathbb{E}[X])\leq\mathbb{E}[f(X)]
 $$
 
+Notice that Jensen’s Inequality is not tight. 
+
 (Reference: High-Dimensional Probability: An Introduction with Applications in Data Science, Chapter 2)
 
 
