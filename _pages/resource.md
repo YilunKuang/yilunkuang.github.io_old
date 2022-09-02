@@ -5,7 +5,10 @@ permalink: /resource/
 author_profile: true
 ---
 
-To be updated
+[Large-Scale ML Training](https://yilunkuang.github.io/resource/large_scale_ml_training)
+
+
+
 
 <!-- Selected Courseworks at New York University
 ------
