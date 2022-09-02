@@ -38,7 +38,7 @@ SLURM is a typical job management system on HPC clusters.
 
 Learning rate tuning for SGD methods is sometimes inevitable step for publications in applied ML literatures. Here is a list of resources for how to do this correctly:
 
-+ (Blog) [A Recipe for Training Neural Networks | Andrej Karpathy blog](http://karpathy.github.io/2019/04/25/recipe/)
++ (Blog) [A Recipe for Training Neural Networks - Andrej Karpathy blog](http://karpathy.github.io/2019/04/25/recipe/)
 + (Paper) [SGD Tricks](https://leon.bottou.org/publications/pdf/tricks-2012.pdf)
 
 Layer-wise Adaptative Rate Scaling (LARS) helps with large multi-node systems with huge effective batch size.
