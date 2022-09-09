@@ -153,3 +153,5 @@ Here is a miscellaneous collection of resources
 + (Blog) [How to Train Really Large Models on Many GPUs?](https://lilianweng.github.io/posts/2021-09-25-train-large/)
 + (Tutorial) [Rules of Machine Learning: Best Practices for ML Engineering](https://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 + (Tutorial) [How to be an effective Deep Learning Researcher/Engineer (MIT Deep Learning)](https://www.dropbox.com/s/3iv93falplmt0yc/8_effective_dl.pdf?dl=0)
++ (Slide) [DIY Deep Learning: Advice on Weaving Nets](http://6.869.csail.mit.edu/fa19/lectures/DIY_Deep_Learning_MIT_6.869.pdf)
+
