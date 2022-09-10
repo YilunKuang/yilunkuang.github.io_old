@@ -8,8 +8,6 @@ tags:
   - category2
 ---
 
-# Debugging as a Scientific Endeavour
-
 Debugging with access to limited error log (e.g. error traceback) is exactly like a scientific problem. With a fixed set of parameter configurations and a finite sample of error logs, you are required to figure out the causal mechanism underlying the error.
 
 In the beginning you will be fooled by the details and correlations presented to you just like the patches of similarity in the *Ditz Double Cat-spread* Jigsaw puzzle. You will propose hypotheses, chase red herrings here and there, only to be defeated again and again and gradually humble yourself in front of the bigger picture. You are an inference machine, constantly and iteratively updating your posterior measures in your hypotheses facing new evidences, as you explored more uncharted areas of the puzzle map.
