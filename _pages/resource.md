@@ -5,8 +5,14 @@ permalink: /resource/
 author_profile: true
 ---
 
-[Large-Scale ML Training](https://yilunkuang.github.io/resource/large_scale_ml_training)
+### Engineering
 
++ [Large-Scale ML Training](https://yilunkuang.github.io/resource/large_scale_ml_training)
+
+
+### Math
+
++ [A Collection of Gaussian Identities](https://yilunkuang.github.io/resource/gaussian_identities)
 
 
 
