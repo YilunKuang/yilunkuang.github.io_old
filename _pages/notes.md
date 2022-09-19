@@ -20,6 +20,8 @@ author_profile: true
 
 [High Dimensional Probability](https://yilunkuang.github.io/notes/high_dim_prob)
 
+[Pattern Recognition and Machine Learning](https://yilunkuang.github.io/notes/prml.md)
+
 <!-- [High Dimensional Statistics] -->
 <!-- [Linear Algebra and its Applications (Peter Lax)] -->
 <!-- [Real Analysis (Folland)] -->
