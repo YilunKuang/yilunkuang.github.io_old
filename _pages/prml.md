@@ -10,4 +10,5 @@ author_profile: true
 
 + [Chapter 2 Probability Distributions](https://yilunkuang.github.io/files/PRML/PRML_Chap2.pdf)
 + [Chapter 3 Linear Models for Regression](https://yilunkuang.github.io/files/PRML/PRML_Chap3.pdf)
++ [Chapter 8 Graphical Models](https://yilunkuang.github.io/files/PRML/PRML_Chap8.pdf)
 
