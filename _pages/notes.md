@@ -16,6 +16,8 @@ author_profile: true
 
 [MCR^2 SSL Objective](https://yilunkuang.github.io/notes/mcr2)
 
+[Real Analysis](https://yilunkuang.github.io/notes/real_analysis)
+
 ## Books
 
 [High Dimensional Probability](https://yilunkuang.github.io/notes/high_dim_prob)
