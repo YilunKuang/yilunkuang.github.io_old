@@ -24,6 +24,8 @@ author_profile: true
 
 [Pattern Recognition and Machine Learning](https://yilunkuang.github.io/notes/prml)
 
+[Information Theory, Inference, and Learning Algorithms](https://yilunkuang.github.io/notes/MacKay)
+
 <!-- [High Dimensional Statistics] -->
 <!-- [Linear Algebra and its Applications (Peter Lax)] -->
 <!-- [Real Analysis (Folland)] -->
