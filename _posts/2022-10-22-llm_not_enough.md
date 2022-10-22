@@ -22,9 +22,9 @@ Nevertheless, this probabilistic approach seems to be the most successful one so
 
 Consider a word $w_i$ from the set of vocabulary $V$. We would like to ask the question that which words does $w$ appear together with. 
 
-Let $\phi(w_i)\in\mathbb{R}^{|V|\times 1}$ be a feature vector of $w_i$ and $\phi(w_i)_j$ be the count of the word $j$ appearing in the context of $w$, where the context in this case could be the same sentence, i.e. $\phi(w_i)_j$ is the co-occurence vector of $w_i$. 
+Let $\phi(w_i)\in\mathbb{R}^{\vert V \vert \times 1}$ be a feature vector of $w_i$ and $\phi(w_i)_j$ be the count of the word $j$ appearing in the context of $w$, where the context in this case could be the same sentence, i.e. $\phi(w_i)_j$ is the co-occurence vector of $w_i$. 
 
-We can then define the following large and sparse centered co-occurence count matrix $\tilde A\in\mathbb{R}^{|V|\times|V|}$:
+We can then define the following large and sparse centered co-occurence count matrix $\tilde A\in\mathbb{R}^{\vert V\vert \times\vert V\vert }$:
 
 $$
 \tilde A=
@@ -32,35 +32,35 @@ $$
 \phi^\top(w_0)-\mu^\top\\
 \phi^\top(w_1)-\mu^\top\\
 \vdots\\
-\phi^\top(w_{|V|-1})-\mu^\top\\
+\phi^\top(w_{\vert V\vert -1})-\mu^\top\\
 \end{bmatrix},
 $$
 
-where $\mu=\frac{1}{|V|}\sum_{i=1}^{|V|}\phi(w_i)$ is the mean vector. For a word embedding matrix $U\in\mathbb{R}^{|V|\times d}$ and a context embedding matrix $V\in\mathbb{R}^{|V|\times d}$ with $d<<|V|,$ we have the following PCA objective via the minimization of reconstruction error: 
+where $\mu=\frac{1}{\vert V\vert }\sum_{i=1}^{\vert V\vert }\phi(w_i)$ is the mean vector. For a word embedding matrix $U\in\mathbb{R}^{\vert V\vert \times d}$ and a context embedding matrix $V\in\mathbb{R}^{\vert V\vert \times d}$ with $d<<\vert V\vert ,$ we have the following PCA objective via the minimization of reconstruction error: 
 
 $$
-\min_{U,V}||\tilde{A}-UV^\top||_F^2
-\\=\sum_{i=1}^{|V|}\sum_{j=1}^{|V|}\bigg[\tilde{\phi}(w_i)_j-u^\top_i v_j\bigg]^2
+\min_{U,V}\vert \vert \tilde{A}-UV^\top\vert \vert _F^2
+\\=\sum_{i=1}^{\vert V\vert }\sum_{j=1}^{\vert V\vert }\bigg[\tilde{\phi}(w_i)_j-u^\top_i v_j\bigg]^2
 $$
 
 where $\tilde{\phi}(w_i)_j$ is the count of the $j$-th word as contexts appear together with the $i$-th word after subtracting the mean. Essentially, we are using $u_i^\top v_j$ to approximate $\tilde{\phi}(w_i)_j$, i.e. using two low rank matrices to approximate the centered word-occurence matrix. 
 
-To make the scenarios more applicable to the NLP task, consider the new matrix $A\in\mathbb{R}^{|V|\times |V|^n}$.  $|V|$ is the possible number of vocabulary, and $|V|^n$ is the possible number of n-gram co-occurence for the vocab $v_i\in V.$ The n-gram here is a sequence of n consecutive words, i.e. it can be thought of as a sentence. For $\tilde{A}=A-\mu$, we have again the following PCA objective. 
+To make the scenarios more applicable to the NLP task, consider the new matrix $A\in\mathbb{R}^{\vert V\vert \times \vert V\vert ^n}$.  $\vert V\vert $ is the possible number of vocabulary, and $\vert V\vert ^n$ is the possible number of n-gram co-occurence for the vocab $v_i\in V.$ The n-gram here is a sequence of n consecutive words, i.e. it can be thought of as a sentence. For $\tilde{A}=A-\mu$, we have again the following PCA objective. 
 
 $$
-\min_{U,V}||\tilde{A}-UV^\top||_F^2
+\min_{U,V}\vert \vert \tilde{A}-UV^\top\vert \vert _F^2
 $$
 
-with $U\in\mathbb{R}^{|V|\times d}$, $V\in\mathbb{R}^{|V|^n\times d}$. Notice that $V$ is extremely impractical to estimate. In fact, lots of the rows of $V$ are gonna be all zeros. We can then proceed to make a parametrization of $V$. The traditional continuous bag of word (CBOW) model gives
+with $U\in\mathbb{R}^{\vert V\vert \times d}$, $V\in\mathbb{R}^{\vert V\vert ^n\times d}$. Notice that $V$ is extremely impractical to estimate. In fact, lots of the rows of $V$ are gonna be all zeros. We can then proceed to make a parametrization of $V$. The traditional continuous bag of word (CBOW) model gives
 
 $$
 V_{ij}=V'_{ij_1}+V'_{ij_2}+\cdots+V'_{ij_n},
 $$
 
-where $j=(j_1,...,j_n)$, $V'\in\mathbb{R}^{|V|\times d}$. Here $j$ refers to one particular n-gram. We have only one $V'$ matrix. Here the ordering information is ignored as addition doesn’t preserve the ordering information. Then we have
+where $j=(j_1,...,j_n)$, $V'\in\mathbb{R}^{\vert V\vert \times d}$. Here $j$ refers to one particular n-gram. We have only one $V'$ matrix. Here the ordering information is ignored as addition doesn’t preserve the ordering information. Then we have
 
 $$
-\sum_{i=1}^{|V|}\sum_{j=1}^{|V|^n}
+\sum_{i=1}^{\vert V\vert }\sum_{j=1}^{\vert V\vert ^n}
 \bigg[
 \tilde\phi(w_i)_j-u_i^\top\bigg(\sum_{n'=1}^{n}V'_{jn'}\bigg)
 \bigg]^2
@@ -69,15 +69,15 @@ $$
 If we parametrize $V$ by a neural network, we have
 
 $$
-\sum_{i=1}^{|V|}\sum_{j=1}^{|V|^n}
+\sum_{i=1}^{\vert V\vert }\sum_{j=1}^{\vert V\vert ^n}
 \bigg[
 \tilde\phi(w_i)_j-u_i^\top F_\theta(j)
 \bigg]^2
-\\=\sum_{i=1}^{|V|}\sum_{j=1}^{|V|^n}
+\\=\sum_{i=1}^{\vert V\vert }\sum_{j=1}^{\vert V\vert ^n}
 \bigg[
 \bigg(\phi(w_i)_j-\mu_j\bigg)-u_i^\top F_\theta(j)
 \bigg]^2
-\\=\sum_{i=1}^{|V|}\sum_{j=1}^{|V|^n}
+\\=\sum_{i=1}^{\vert V\vert }\sum_{j=1}^{\vert V\vert ^n}
 \bigg[
 \phi(w_i)_j-\bigg(u_i^\top F_\theta(j)+\mu_j
 \bigg)\bigg]^2
