@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am Yilun Kuang, a rising senior in Honors Mathematics and Computer Science at New York University. I am currently working as a summer research intern at the [Center for Computational Neuroscience of Flatiron Institute, Simons Foundation](https://www.simonsfoundation.org/people/yilun-kuang/) on manifold geometry inspired self-supervised learning.
+I am Yilun Kuang, a 4-th year undergrad in Honors Mathematics and Computer Science at New York University. I am currently working as a research assistant at the [Center for Computational Neuroscience of Flatiron Institute, Simons Foundation](https://www.simonsfoundation.org/people/yilun-kuang/) on manifold geometry inspired self-supervised learning.
 
-My research interests lie in understanding the jigsaw puzzle of biological and artificial intelligence. To this end, I gather pieces from theoretical neuroscience, deep learning, and statistics. I have worked on various projects related to [virtual adversarial training in NLP](https://yilunkuang.github.io/files/SiFT_for_Improved_Generalization.pdf), [mean-field and neural tangent kernel limit of training dynamics](https://yilunkuang.github.io/files/Math4DL.pdf), [and excess neural variability in the visual cortex](https://yilunkuang.github.io/files/Comp_Neur_Final_Paper.pdf).
+My research interests lie in understanding the jigsaw puzzle of biological and artificial intelligence. To this end, I gather pieces from theoretical neuroscience, machine learning, and statistics. I have worked on various projects related to [virtual adversarial training in NLP](https://yilunkuang.github.io/files/SiFT_for_Improved_Generalization.pdf), [mean-field and neural tangent kernel limit of training dynamics](https://yilunkuang.github.io/files/Math4DL.pdf), [and excess neural variability in the visual cortex](https://yilunkuang.github.io/files/Comp_Neur_Final_Paper.pdf).
 
 Beyond my current academic pursuit, I also enjoy roaming around in the ocean of ideas, whether scientific or humanity-related. I was an avid reader of critical media theory, comparative politics, international relations, economic history, and neurophilosophy. I also enjoy playing ping pong, ultimate Frisbee, and basketball. 
 
