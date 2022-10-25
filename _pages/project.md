@@ -17,4 +17,5 @@ author_profile: true
 ## Scalable MNIST on Kubernetes
 + [Project Link](https://github.com/YilunKuang/Scalable-MNIST-on-Kubernetes)
 
+<!-- # Philosophy Essays -->
 

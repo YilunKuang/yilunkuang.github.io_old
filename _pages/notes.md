@@ -22,6 +22,8 @@ author_profile: true
 
 [High Dimensional Probability](https://yilunkuang.github.io/notes/high_dim_prob)
 
+[Gaussian Processes for Machine Learning](https://yilunkuang.github.io/notes/gpml)
+
 [Pattern Recognition and Machine Learning](https://yilunkuang.github.io/notes/prml)
 
 [Information Theory, Inference, and Learning Algorithms](https://yilunkuang.github.io/notes/MacKay)
