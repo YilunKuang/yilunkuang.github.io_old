@@ -14,6 +14,9 @@ author_profile: true
 ## Poisson-Gamma Neural Variability
 + [Project Paper](https://yilunkuang.github.io/files/Comp_Neur_Final_Paper.pdf)
 
+## Graph Laplacians and Graph Convolutional Network for Single-Cell Data
++ [Project Paper](https://yilunkuang.github.io/files/GCN_Paper.pdf)
+
 ## Scalable MNIST on Kubernetes
 + [Project Link](https://github.com/YilunKuang/Scalable-MNIST-on-Kubernetes)
 
