@@ -7,6 +7,7 @@ author_profile: true
 
 ## A Survey of Lazy and Feature Learning Regimes
 + [Presentation Slides](https://yilunkuang.github.io/files/Math4DL.pdf)
++ [Project Paper](https://yilunkuang.github.io/files/MDL_Final_Report.pdf)
 
 ## Scale-Invariant Finetuning for Improved Generalization
 + [Project Paper](https://yilunkuang.github.io/files/SiFT_for_Improved_Generalization.pdf)
