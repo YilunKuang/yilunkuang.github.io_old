@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-Here is my [CV](https://yilunkuang.github.io/files/Yilun_resume.pdf) (Last update: Aug 25, 2022).
+Available upon request.
+
+<!-- Here is my [CV](https://yilunkuang.github.io/files/Yilun_resume.pdf) (Last update: Aug 25, 2022). -->
 
 <!-- Education
 ======
