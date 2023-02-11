@@ -11,6 +11,10 @@ author_profile: true
 
 This is a list of resources for the engineering aspect of machine learning, especially self-supervised training of deep neural networks on multi-node machines. 
 
+## Configuration Management
+
+[Hydra](https://hydra.cc/) and [OmegaConf](https://github.com/omry/omegaconf) are the go-to options for experiment configuration management.
+
 ## Distributed Training
 
 ### PyTorch DDP
