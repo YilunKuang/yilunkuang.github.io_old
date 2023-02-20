@@ -46,7 +46,7 @@ Selected Courseworks at New York University
 + CSCI-GA 3033 Cloud and Machine Learning (Graduate)
 
 
-Prospective Courseworks at New York University
+Prospective Courseworks at New York University (Spring 2023)
 ------
 ***
 
