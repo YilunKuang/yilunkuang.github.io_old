@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Yilun Kuang"
   avatar           : "bio-photo.jpg"
-  bio              : "Undergraduate Student at New York University"
+  bio              : "Incoming PhD Student in Data Science @ NYU CDS | Guest Researcher at Flatiron Institute CCN, Simons Foundations | Honors Math & Computer Science @ NYU '23"
   location         : 
   employer         :
   pubmed           : 
@@ -178,9 +178,9 @@ collections:
   # teaching:
   #   output: true
   #   permalink: /:collection/:path/
-  # publications:
-  #   output: true
-  #   permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
@@ -221,7 +221,7 @@ defaults:
   #     author_profile: true
   #     share: true
   #     comments: true
-  _publications
+  # _publications
   - scope:
       path: ""
       type: publications
