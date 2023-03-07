@@ -1,15 +1,18 @@
 ---
-title: "Paper Title Number 1"
+title: "Learning a Visual Representation by Maximizing Manifold Capacity"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'Thomas Yerxa, Yilun Kuang, Eero Simoncelli, SueYeon Chung (2023). "Learning a Visual Representation by Maximizing Manifold Capacity". Computational and Systems Neuroscience (COSYNE). Poster Presentation.'
+date: 2023-03-09
+venue: 'COSYNE'
+paperurl: 'https://www.cns.nyu.edu/~lcv/pubs/makeAbs.php?loc=Yerxa23a'
+citation: 'Thomas Yerxa, Yilun Kuang, Eero Simoncelli, SueYeon Chung (2023). "Learning a Visual Representation by Maximizing Manifold Capacity". Computational and Systems Neuroscience (COSYNE). Poster Presentation.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+Thomas Yerxa, Yilun Kuang, Eero Simoncelli, SueYeon Chung (2023). "Learning a Visual Representation by Maximizing Manifold Capacity". Computational and Systems Neuroscience (COSYNE). Poster Presentation.
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+<!-- [Download paper here](https://www.cns.nyu.edu/~lcv/pubs/makeAbs.php?loc=Yerxa23a) -->
+
+<!-- Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
+
+<!-- \resumeItem{{\href{https://www.cns.nyu.edu/~lcv/pubs/makeAbs.php?loc=Yerxa23a}{\color{blue}{\faIcon{file-alt}}}} Thomas Yerxa, \textbf{Yilun Kuang}, Eero Simoncelli, SueYeon Chung (2023). "Learning a Visual Representation by Maximizing Manifold Capacity." \textit{Computational and Systems Neuroscience (COSYNE)}. Poster Presentation} -->
