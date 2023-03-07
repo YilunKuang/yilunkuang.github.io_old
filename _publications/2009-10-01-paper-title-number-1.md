@@ -15,4 +15,3 @@ Thomas Yerxa, Yilun Kuang, Eero Simoncelli, SueYeon Chung (2023). "Learning a Vi
 
 <!-- Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
 
-<!-- \resumeItem{{\href{https://www.cns.nyu.edu/~lcv/pubs/makeAbs.php?loc=Yerxa23a}{\color{blue}{\faIcon{file-alt}}}} Thomas Yerxa, \textbf{Yilun Kuang}, Eero Simoncelli, SueYeon Chung (2023). "Learning a Visual Representation by Maximizing Manifold Capacity." \textit{Computational and Systems Neuroscience (COSYNE)}. Poster Presentation} -->
