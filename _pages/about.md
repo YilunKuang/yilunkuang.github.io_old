@@ -8,15 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-I am Yilun Kuang, an incoming PhD student in Data Science at [NYU CDS](https://cds.nyu.edu/) advised by [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). I am currently a fourth year undergrad in Honors Mathematics and Computer Science at New York University. I am also a research assistant at the [Center for Computational Neuroscience of Flatiron Institute, Simons Foundation](https://www.simonsfoundation.org/people/yilun-kuang/) working with [SueYeon Chung](https://sites.google.com/site/sueyeonchung/) and [Eero Simoncelli](http://www.cns.nyu.edu/~eero/) on manifold geometry/efficient coding inspired self-supervised learning.
+I am Yilun Kuang, a first-year PhD student in Data Science at [NYU CDS](https://cds.nyu.edu/) & [NYU CILVR Lab](https://wp.nyu.edu/cilvr/) advised by [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). My heavy-tailed prior belief in my research interests includes Probabilistic Modeling, Bayesian Deep Learning, Self-Supervised Representation Learning, NeuroAI & AI for Science, Gaussian Process, and Representational Geometry. 
 
-My research interests lie in Probabilistic Generative Modeling, Bayesian Deep Learning, Self-Supervised Representation Learning, NeuroAI & AI for Science, Gaussian Process and Neural Tangent Kernel, Representational Geometry. 
+Prior to starting PhD, I graduated magna cum laude with high honors from NYU with a BA in Mathematics. I was fortunate to work with [SueYeon Chung](https://sites.google.com/site/sueyeonchung/) and [Eero Simoncelli](http://www.cns.nyu.edu/~eero/) on manifold geometry/efficient coding inspired self-supervised learning at the [Center for Computational Neuroscience of Flatiron Institute, Simons Foundation](https://www.simonsfoundation.org/people/yilun-kuang/).
+
+Outside of research, I enjoy playing ping pong, ultimate frisbee, basketball, and reading about philosophy, politics, and economics. 
+
 
 <!-- I have worked on various projects related to [virtual adversarial training in NLP](https://yilunkuang.github.io/files/SiFT_for_Improved_Generalization.pdf), [mean-field and neural tangent kernel limit of training dynamics](https://yilunkuang.github.io/files/Math4DL.pdf), [and excess neural variability in the visual cortex](https://yilunkuang.github.io/files/Comp_Neur_Final_Paper.pdf). -->
 
 <!-- My research interests lie in understanding the jigsaw puzzle of biological and artificial intelligence. To this end, I gather pieces from theoretical neuroscience, machine learning, and statistics. I have worked on various projects related to [virtual adversarial training in NLP](https://yilunkuang.github.io/files/SiFT_for_Improved_Generalization.pdf), [mean-field and neural tangent kernel limit of training dynamics](https://yilunkuang.github.io/files/Math4DL.pdf), [and excess neural variability in the visual cortex](https://yilunkuang.github.io/files/Comp_Neur_Final_Paper.pdf). -->
 
-Beyond my current academic pursuit, I also enjoy roaming around in the ocean of ideas, whether scientific or humanity-related. I was an avid reader of critical media theory, comparative politics, international relations, economic history, and neurophilosophy. I also enjoy playing ping pong, ultimate Frisbee, and basketball. 
+
+
 
 
 
