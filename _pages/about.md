@@ -21,20 +21,20 @@ Outside of research, I enjoy playing ping pong, ultimate frisbee, basketball, an
 
 ## Publications
 
-**Non-Vacuous Generalization Bounds for Large Language Models**
-Sanae Lotfi*, Marc Finzi*, **Yilun Kuang***, Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.
+**Non-Vacuous Generalization Bounds for Large Language Models**\
+Sanae Lotfi*, Marc Finzi*, **Yilun Kuang***, Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
 Under review.
 
-**Unsupervised Learning on Spontaneous Retinal Activity Leads to Efficient Neural Representation Geometry**
-Andrew Ligeralde, **Yilun Kuang**, Thomas Edward Yerxa, Miah N Pitcher, Marla Feller, SueYeon Chung.
+**Unsupervised Learning on Spontaneous Retinal Activity Leads to Efficient Neural Representation Geometry**\
+Andrew Ligeralde, **Yilun Kuang**, Thomas Edward Yerxa, Miah N Pitcher, Marla Feller, SueYeon Chung.\
 Under review.
 
-**Learning Efficient Coding of Natural Images with Maximum Manifold Capacity Representations**
-Thomas Edward Yerxa, **Yilun Kuang**, Eero P Simoncelli, SueYeon Chung
+**Learning Efficient Coding of Natural Images with Maximum Manifold Capacity Representations**\
+Thomas Edward Yerxa, **Yilun Kuang**, Eero P Simoncelli, SueYeon Chung.\
 Neural Information Processing Systems (NeurIPS), 2023. [[Poster](https://neurips.cc/virtual/2023/poster/70447)]
 
-**Learning a Visual Representation by Maximizing Manifold Capacity**
-Thomas Yerxa, **Yilun Kuang**, Eero Simoncelli, SueYeon Chung.
+**Learning a Visual Representation by Maximizing Manifold Capacity**\
+Thomas Yerxa, **Yilun Kuang**, Eero Simoncelli, SueYeon Chung.\
 Computational and Systems Neuroscience (COSYNE), 2023.
 [[Poster](https://www.cns.nyu.edu/~lcv/pubs/makeAbs.php?loc=Yerxa23a)]
 
