@@ -8,16 +8,36 @@ redirect_from:
   - /about.html
 ---
 
-I am Yilun Kuang, a first-year PhD student in Data Science at [NYU CDS](https://cds.nyu.edu/) & [NYU CILVR Lab](https://wp.nyu.edu/cilvr/) advised by [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). My heavy-tailed prior belief in my research interests includes Probabilistic Modeling, Bayesian Deep Learning, Self-Supervised Representation Learning, NeuroAI & AI for Science, Gaussian Process, and Representational Geometry. 
+I am Yilun Kuang, a first-year PhD student in Data Science at [NYU CDS](https://cds.nyu.edu/) & [NYU CILVR Lab](https://wp.nyu.edu/cilvr/) advised by [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). My research interests includes Self-Supervised Representation Learning, Large Language Models, Multimodal Learning, Probabilistic Generative Models, NeuroAI & AI for Science, and Bayesian Deep Learning.
 
 Prior to starting PhD, I graduated magna cum laude with high honors from NYU with a BA in Mathematics. I was fortunate to work with [SueYeon Chung](https://sites.google.com/site/sueyeonchung/) and [Eero Simoncelli](http://www.cns.nyu.edu/~eero/) on manifold geometry/efficient coding inspired self-supervised learning at the [Center for Computational Neuroscience of Flatiron Institute, Simons Foundation](https://www.simonsfoundation.org/people/yilun-kuang/).
 
 Outside of research, I enjoy playing ping pong, ultimate frisbee, basketball, and reading about philosophy, politics, and economics. 
 
 
-<!-- I have worked on various projects related to [virtual adversarial training in NLP](https://yilunkuang.github.io/files/SiFT_for_Improved_Generalization.pdf), [mean-field and neural tangent kernel limit of training dynamics](https://yilunkuang.github.io/files/Math4DL.pdf), [and excess neural variability in the visual cortex](https://yilunkuang.github.io/files/Comp_Neur_Final_Paper.pdf). -->
+[[CV](https://yilunkuang.github.io/files/cv/YK_PhD_Resume.pdf)]
 
-<!-- My research interests lie in understanding the jigsaw puzzle of biological and artificial intelligence. To this end, I gather pieces from theoretical neuroscience, machine learning, and statistics. I have worked on various projects related to [virtual adversarial training in NLP](https://yilunkuang.github.io/files/SiFT_for_Improved_Generalization.pdf), [mean-field and neural tangent kernel limit of training dynamics](https://yilunkuang.github.io/files/Math4DL.pdf), [and excess neural variability in the visual cortex](https://yilunkuang.github.io/files/Comp_Neur_Final_Paper.pdf). -->
+
+
+## Publications
+
+**Non-Vacuous Generalization Bounds for Large Language Models**
+Sanae Lotfi*, Marc Finzi*, **Yilun Kuang***, Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.
+Under review.
+
+**Unsupervised Learning on Spontaneous Retinal Activity Leads to Efficient Neural Representation Geometry**
+Andrew Ligeralde, **Yilun Kuang**, Thomas Edward Yerxa, Miah N Pitcher, Marla Feller, SueYeon Chung.
+Under review.
+
+**Learning Efficient Coding of Natural Images with Maximum Manifold Capacity Representations**
+Thomas Edward Yerxa, **Yilun Kuang**, Eero P Simoncelli, SueYeon Chung
+Neural Information Processing Systems (NeurIPS), 2023. [[Poster](https://neurips.cc/virtual/2023/poster/70447)]
+
+**Learning a Visual Representation by Maximizing Manifold Capacity**
+Thomas Yerxa, **Yilun Kuang**, Eero Simoncelli, SueYeon Chung.
+Computational and Systems Neuroscience (COSYNE), 2023.
+[[Poster](https://www.cns.nyu.edu/~lcv/pubs/makeAbs.php?loc=Yerxa23a)]
+
 
 
 
