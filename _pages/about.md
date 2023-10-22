@@ -22,7 +22,7 @@ Outside of research, I enjoy playing ping pong, ultimate frisbee, basketball, an
 ## Publications
 
 **Non-Vacuous Generalization Bounds for Large Language Models**\
-Sanae Lotfi*, Marc Finzi*, **Yilun Kuang***, Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
+Sanae Lotfi\*, Marc Finzi\*, **Yilun Kuang\***, Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
 Under review.
 
 **Unsupervised Learning on Spontaneous Retinal Activity Leads to Efficient Neural Representation Geometry**\
