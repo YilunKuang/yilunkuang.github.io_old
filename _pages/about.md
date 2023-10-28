@@ -23,11 +23,15 @@ Outside of research, I enjoy playing ping pong, ultimate frisbee, basketball, an
 
 **Non-Vacuous Generalization Bounds for Large Language Models**\
 Sanae Lotfi\*, Marc Finzi\*, **Yilun Kuang\***, Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
-Under review.
+Under Review.
+
+**Non-Vacuous Generalization Bounds for Large Language Models**\
+Sanae Lotfi\*, Marc Finzi\*, **Yilun Kuang\***, Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
+NeurIPS 2023 Workshop: Self-Supervised Learning - Theory and Practice.
 
 **Unsupervised Learning on Spontaneous Retinal Activity Leads to Efficient Neural Representation Geometry**\
 Andrew Ligeralde, **Yilun Kuang**, Thomas Edward Yerxa, Miah N Pitcher, Marla Feller, SueYeon Chung.\
-Under review.
+NeurIPS 2023 Workshop: UniReps: Unifying Representations in Neural Models.
 
 **Learning Efficient Coding of Natural Images with Maximum Manifold Capacity Representations**\
 Thomas Edward Yerxa, **Yilun Kuang**, Eero P Simoncelli, SueYeon Chung.\
