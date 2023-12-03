@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am Yilun Kuang, a first-year PhD student in Data Science at [NYU CDS](https://cds.nyu.edu/) & [NYU CILVR Lab](https://wp.nyu.edu/cilvr/) advised by [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). My research interests includes Self-Supervised Representation Learning, Large Language Models, Multimodal Learning, Probabilistic Generative Models, NeuroAI & AI for Science, and Bayesian Deep Learning.
+I am Yilun Kuang, a first-year PhD student in Data Science at [NYU CDS](https://cds.nyu.edu/) & [NYU CILVR Lab](https://wp.nyu.edu/cilvr/) advised by [Andrew Gordon Wilson](https://cims.nyu.edu/~andrewgw/). My research interests includes Large Language Models, Diffusion Models, Self-Supervised Learning, Multimodal Vision-Language Learning, Probabilistic Generative Models, NeuroAI & AI for Science, Generalization Theory, and Bayesian Deep Learning.
 
 Prior to starting PhD, I graduated magna cum laude with high honors from NYU with a BA in Mathematics. I was fortunate to work with [SueYeon Chung](https://sites.google.com/site/sueyeonchung/) and [Eero Simoncelli](http://www.cns.nyu.edu/~eero/) on manifold geometry/efficient coding inspired self-supervised learning at the [Center for Computational Neuroscience of Flatiron Institute, Simons Foundation](https://www.simonsfoundation.org/people/yilun-kuang/).
 
 Outside of research, I enjoy playing ping pong, ultimate frisbee, basketball, and reading about philosophy, politics, and economics. 
 
+## Curriculum Vitae
 
 [[CV](https://yilunkuang.github.io/files/cv/YK_PhD_Resume.pdf)]
 
@@ -21,21 +22,25 @@ Outside of research, I enjoy playing ping pong, ultimate frisbee, basketball, an
 
 ## Publications
 
+### Conference Papers
+
 **Non-Vacuous Generalization Bounds for Large Language Models**\
-Sanae Lotfi\*, Marc Finzi\*, **Yilun Kuang\***, Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
+Sanae Lotfi\*, Marc Finzi\*, **Yilun Kuang\*** (equal contribution), Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
 Under Review.
-
-**Non-Vacuous Generalization Bounds for Large Language Models**\
-Sanae Lotfi\*, Marc Finzi\*, **Yilun Kuang\***, Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
-NeurIPS 2023 Workshop: Self-Supervised Learning - Theory and Practice.
-
-**Unsupervised Learning on Spontaneous Retinal Activity Leads to Efficient Neural Representation Geometry**\
-Andrew Ligeralde, **Yilun Kuang**, Thomas Edward Yerxa, Miah N Pitcher, Marla Feller, SueYeon Chung.\
-NeurIPS 2023 Workshop: UniReps: Unifying Representations in Neural Models.
 
 **Learning Efficient Coding of Natural Images with Maximum Manifold Capacity Representations**\
 Thomas Edward Yerxa, **Yilun Kuang**, Eero P Simoncelli, SueYeon Chung.\
 Neural Information Processing Systems (NeurIPS), 2023. [[Poster](https://neurips.cc/virtual/2023/poster/70447)]
+
+### Workshop Papers
+
+**Unsupervised Learning on Spontaneous Retinal Activity Leads to Efficient Neural Representation Geometry**\
+Andrew Ligeralde, **Yilun Kuang** (equal contribution), Thomas Edward Yerxa, Miah N Pitcher, Marla Feller, SueYeon Chung.\
+NeurIPS 2023 Workshop: UniReps: Unifying Representations in Neural Models.
+
+**Non-Vacuous Generalization Bounds for Large Language Models**\
+Sanae Lotfi\*, Marc Finzi\*, **Yilun Kuang\*** (equal contribution), Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
+NeurIPS 2023 Workshop: Self-Supervised Learning - Theory and Practice.
 
 **Learning a Visual Representation by Maximizing Manifold Capacity**\
 Thomas Yerxa, **Yilun Kuang**, Eero Simoncelli, SueYeon Chung.\
