@@ -24,6 +24,10 @@ Outside of research, I enjoy playing ping pong, ultimate frisbee, basketball, an
 
 ### Conference Papers
 
+**Token-Level Generalization Bounds for Large Language Models**\
+Sanae Lotfi\*, **Yilun Kuang\*** (equal contribution), Marc Finzi\*,  Brandon Amos, Micah Goldblum, Andrew Gordon Wilson.\
+Under Review.
+
 **Non-Vacuous Generalization Bounds for Large Language Models**\
 Sanae Lotfi\*, Marc Finzi\*, **Yilun Kuang\*** (equal contribution), Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
 Under Review.
