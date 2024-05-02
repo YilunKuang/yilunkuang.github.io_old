@@ -30,7 +30,7 @@ Under Review.
 
 **Non-Vacuous Generalization Bounds for Large Language Models**\
 Sanae Lotfi\*, Marc Finzi\*, **Yilun Kuang\*** (equal contribution), Tim G. J. Rudner, Micah Goldblum, Andrew Gordon Wilson.\
-Under Review.
+International Conference on Machine Learning (ICML), 2024.
 
 **Learning Efficient Coding of Natural Images with Maximum Manifold Capacity Representations**\
 Thomas Edward Yerxa, **Yilun Kuang**, Eero P Simoncelli, SueYeon Chung.\
